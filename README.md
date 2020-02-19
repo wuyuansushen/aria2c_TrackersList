@@ -1,4 +1,4 @@
-# aria2c
+# aria2c rule
 This is an instration about how to configure the enviroment about downloading torrent.
 
 1.The configure file is `$HOME/.aria2/aria2.conf`
@@ -10,3 +10,8 @@ This is an instration about how to configure the enviroment about downloading to
 ```
 bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 ```
+
+# Aria2c script
+1.Please move this script in `/usr/lib`
+
+2.If you have this ability,I advise you to add it to __crontab__
