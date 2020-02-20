@@ -12,6 +12,6 @@ bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 ```
 
 # Aria2c script
-1.Please move this script in `/usr/lib`
+1.We advise you locate this script in `/usr/lib`
 
 2.If you have this ability,I advise you to add it to __crontab__
