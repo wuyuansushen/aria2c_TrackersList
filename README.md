@@ -15,3 +15,22 @@ bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 1.We advise you locate this script in `/usr/lib`
 
 2.If you have this ability,I advise you to add it to __crontab__
+
+# Crontab Configuration
+
+1.Select the editor of the __crontab__
+
+```
+select-editor
+```
+
+2.use __crontab__
+
+Look at crontab:
+```
+crontab -l
+```
+Add task to crontab:
+```
+crontab -e
+```
