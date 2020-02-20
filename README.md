@@ -18,6 +18,11 @@ bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 
 # Crontab Configuration
 
+0.Check the Time of the server
+```
+date
+```
+
 1.Select the editor of the __crontab__
 
 ```
@@ -33,4 +38,9 @@ crontab -l
 Add task to crontab:
 ```
 crontab -e
+```
+Add the Task,such as(Update on 4:00am every 4 days)
+```
+# m h  dom mon dow   command
+0 4 */4 * * bash /usr/lib/TLUpdate.sh
 ```
