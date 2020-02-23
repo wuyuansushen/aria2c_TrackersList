@@ -2,7 +2,7 @@
 SourceURL='https://github.com/ngosang/trackerslist.git'
 TmpStr=${SourceURL%.git} 
 FloderName=${TmpStr##*/}
-FileName='trackers_best.txt'
+FileName='trackers_all.txt'
 FullName="/tmp/${FloderName}/${FileName}"
 #Test aria2
 aria2c --version
