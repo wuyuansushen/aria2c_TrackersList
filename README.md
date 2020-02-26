@@ -12,6 +12,9 @@ bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 ```
 
 # Aria2c script
+
+## The `go.sh` could accomplish the task below, Please use it !!!!
+
 1.We advise you locate this script in `/usr/lib`
 
 2.If you have this ability,I advise you to add it to __crontab__
