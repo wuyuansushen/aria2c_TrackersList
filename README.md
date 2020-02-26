@@ -39,8 +39,8 @@ Add task to crontab:
 ```
 crontab -e
 ```
-Add the Task,such as(Update on 4:00am every 4 days)
+Add the Task,such as(Update on 4:00am every 2 days)
 ```
 # m h  dom mon dow   command
-0 4 */4 * * bash /usr/lib/TLUpdate.sh
+0 4 */2 * * bash /usr/lib/TLUpdate.sh
 ```
