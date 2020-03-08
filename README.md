@@ -1,3 +1,9 @@
+# Quick Start
+
+```
+bash aria2c_TrackersList/go.sh
+```
+
 # aria2c rule
 This is an instration about how to configure the enviroment about downloading torrent.
 
@@ -13,7 +19,6 @@ bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 
 # Aria2c script
 
-## The `go.sh` could accomplish the task below, Please use it !!!!
 
 1.We advise you locate this script in `/usr/lib`
 
