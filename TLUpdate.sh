@@ -69,7 +69,7 @@ RealOut=$(echo $(grep . ${FullName}) | sed 's/ /,/g')
 echo "bt-tracker=${RealOut}" > /tmp/aria2.conf
 }
 #Aria2 old File Test
-old_file{
+old_file(){
 if [ -f $HOME/.aria2/aria2.conf ]; then 
 	echo "[+]$HOME/.aria2/aria2.conf  is exited"
 	rm $HOME/.aria2/aria2.conf
