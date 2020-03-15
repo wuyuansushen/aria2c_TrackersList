@@ -82,7 +82,9 @@ Move_new_file(){
 echo "[+]Move aria2.conf file"
 mv /tmp/aria2.conf $HOME/.aria2/aria2.conf
 echo "[+]Move the file successfully"
+}
 #Remove used git repository
+Remove_git_folder(){
 rm -r /tmp/${FloderName}
 echo "[+]Clean up the rubbish file successfully!"
 cd ~
@@ -96,3 +98,4 @@ Download_Source
 Generate_output
 old_file
 Move_new_file
+Remove_git_folder
