@@ -26,18 +26,18 @@ bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 
 # Crontab Configuration
 
-0.Check the Time of the server
+1.Check the Time of the server
 ```
 date
 ```
 
-1.Select the editor of the __crontab__
+2.Select the editor of the __crontab__
 
 ```
 select-editor
 ```
 
-2.use __crontab__
+3.use __crontab__
 
 Look at crontab:
 ```
@@ -51,4 +51,16 @@ Add the Task,such as(Update on 4:00am every 2 days)
 ```
 # m h  dom mon dow   command
 0 4 */2 * * bash /usr/lib/TLUpdate.sh
+```
+
+4. (Optional) Get/Discard __crontab log__
+
+Get:
+```
+apt install mailutils
+```
+
+Discard:
+```
+apt purge mailutils
 ```
