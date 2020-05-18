@@ -51,6 +51,9 @@ Add the Task,such as(Update on 4:00am every 2 days)
 ```
 # m h  dom mon dow   command
 0 4 */2 * * bash /usr/lib/TLUpdate.sh
+
+#固定时间重启设备示例
+0 4 * * * /sbin/reboot
 ```
 
 4. (Optional) Get/Discard __crontab log__
