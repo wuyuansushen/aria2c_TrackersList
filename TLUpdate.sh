@@ -11,8 +11,8 @@ if [ $? == 0 ];then
 	echo "[+]Aria2 have installed"
 else
 	echo "[-]Aria2 is not installed"
-	apt update
-	apt install aria2 -y
+	dnf makecache
+	dnf install aria2 -y
 	echo '[-]Have installed Aira2'
 fi
 }
@@ -45,7 +45,7 @@ if [ $? == 0 ];then
 	echo "[+]git have installed"
 else
 	echo "[-]git is not installed"
-	apt install git -y
+	dnf install git -y
 	echo '[-]Install git successfully'
 fi
 echo "[+]Download TrackersList...."
