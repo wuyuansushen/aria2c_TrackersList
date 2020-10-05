@@ -67,7 +67,7 @@ fi
 Generate_output(){
 RealOut=$(echo $(grep . ${FullName}) | sed 's/ /,/g')
 echo "bt-tracker=${RealOut}" > /tmp/aria2.conf
-echo "seed-time=0" >> /tmp/aria2.conf
+echo "seed-time=1" >> /tmp/aria2.conf
 }
 #Aria2 old File Test
 old_file(){
