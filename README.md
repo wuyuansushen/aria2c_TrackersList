@@ -1,4 +1,4 @@
-# Quick Start
+# Start Quickly
 
 ```
 bash aria2c_TrackersList/go.sh
