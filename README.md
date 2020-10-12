@@ -4,7 +4,8 @@
 bash aria2c_TrackersList/go.sh
 ```
 
-# aria2c rule
+# Reference (Advanced)
+## aria2c rule
 This is an instration about how to configure the enviroment about downloading torrent.
 
 1.The configure file is `$HOME/.aria2/aria2.conf`
@@ -16,14 +17,14 @@ This is an instration about how to configure the enviroment about downloading to
 bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 ```
 
-# Aria2c script
+## Aria2c script
 
 
 1.We advise you locate this script in `/usr/lib`
 
 2.If you have this ability,I advise you to add it to __crontab__
 
-# Crontab Configuration
+## Crontab Configuration
 
 1.Check the Time of the server
 ```
