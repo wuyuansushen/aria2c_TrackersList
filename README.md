@@ -17,6 +17,26 @@ This is an instration about how to configure the enviroment about downloading to
 bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 ```
 
+## Aria2c Usage of torrent
+
+1.Show conntent list and index of torrent file
+
+```
+aria2c ( -S | --show-files ) true <torrentFIle>
+```
+
+2.Download specific files of torrent with their index
+
+```
+aria2c --select-file=<index> <torrentFile>
+```
+
+`<index>` have two types to choose multiple files with their index number showed in `--show-files`:
+
+1.Multiple Individual indexes can be specified by using `,`
+
+2.Specify a range with `-`
+
 ## Aria2c script
 
 
