@@ -22,7 +22,7 @@ bt-tracker=<URI>,<URI>,<URI>,<URI>,<URI>....
 1.Show conntent list and index of torrent file
 
 ```
-aria2c ( -S | --show-files ) true <torrentFIle>
+aria2c [ -S | --show-files ] <torrentFIle>
 ```
 
 2.Download specific files of torrent with their index
