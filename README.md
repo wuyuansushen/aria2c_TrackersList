@@ -24,6 +24,10 @@ aria2c --select-file=<index> <torrentFile>
 
 2.Specify a range with `-`
 
+## Other Tip
+
+You could use `wget` to get resource downloaded by `aria2c` through Web Server
+
 # Reference (Advanced)
 
 ## Aria2c rule
