@@ -26,7 +26,7 @@ aria2c --select-file=<index> <torrentFile>
 
 ## Other Tip
 
-You could use `wget` to get resource downloaded by `aria2c` through Web Server
+You could use `wget` to get resource downloaded by `aria2c` through Web Server.
 
 # Reference (Advanced)
 
