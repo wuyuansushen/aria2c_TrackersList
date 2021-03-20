@@ -6,13 +6,19 @@ bash aria2c_TrackersList/go.sh
 
 ## Aria2c Usage of torrent
 
-1.Show conntent list and index of torrent file
+1.Download `.torrent` file from `magnet` link
+
+```
+aria2c --bt-metadata-only <magnetLink>
+```
+
+2.Show conntent list and index of torrent file
 
 ```
 aria2c [ -S | --show-files ] <torrentFIle>
 ```
 
-2.Download specific files of torrent with their index
+3.Download specific files of torrent with their index
 
 ```
 aria2c --select-file=<index> <torrentFile>
