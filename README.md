@@ -9,7 +9,7 @@ bash aria2c_TrackersList/go.sh
 1.Download `.torrent` file from `magnet` link
 
 ```
-aria2c --bt-metadata-only <magnetLink>
+aria2c --bt-save-metadata=true --bt-metadata-only=true <magnetLink>
 ```
 
 2.Show conntent list and index of torrent file
