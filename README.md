@@ -40,7 +40,7 @@ bash aria2c_TrackersList/go.sh
         
         - This option can be used multiple times.
 
-        - Specify an output file name of torrent downloads through its `<INDEX>` obtained from using `-S, --show-files`.
+        - Specify an output file name of torrent downloads through its `<INDEX>` obtained from using `--show-files`.
 
 ### Other tips
 
