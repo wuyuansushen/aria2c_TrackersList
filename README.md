@@ -30,6 +30,10 @@ bash aria2c_TrackersList/go.sh
 
     2. Specify a range with `-`
 
+    > Note
+
+    > In multi file torrent, the adjacent files specified by this option may also be downloaded.
+
 ### Other tips
 
 - You could use `wget` to get resource downloaded by `aria2c` through Web Server.
