@@ -21,16 +21,26 @@ bash aria2c_TrackersList/go.sh
 3. Download specific files of torrent with their index
 
     ```
-    aria2c --select-file=<index> <torrentFile>
+    aria2c --select-file=<INDEX> <torrentFile>
     ```
 
-    `<index>` have two types to choose multiple files with their index number showed in `--show-files`
+    `<INDEX>` have two types to choose multiple files with their index number showed in `--show-files`
         
     1. Multiple Individual indexes can be specified by using `,`
 
     2. Specify a range with `-`
 
-    :bulb: In multi file torrent, the adjacent files specified by this option may also be downloaded.
+    :bulb: In multiple file torrent, the adjacent files specified by this option may also be downloaded.
+
+4. FAQ
+
+    - Q: Encounter `cause: File name too long` error
+
+    - A: Use `-O, --index-out=<INDEX>=<PATH>` option
+        
+        - This option can be used multiple times.
+
+        - Specify an output file name of torrent downloads through its `<INDEX>` obtained from using `-S, --show-files`.
 
 ### Other tips
 
